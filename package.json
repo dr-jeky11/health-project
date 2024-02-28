@@ -1,11 +1,11 @@
 {
-  "name": "project-health",
+  "name": "health-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-health/",
+    "build": "vite build --base=/health-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
