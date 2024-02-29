@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 375px) {
     .hero-wrapper {
         width: 375px;
@@ -79,6 +78,9 @@
     }
 }
 
-
-    
+.organic-container {
+  margin: 0 auto;
+  background-color: #576f35;
+  padding-top: 100px;
+}
 
