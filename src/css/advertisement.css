@@ -1,19 +1,14 @@
 .advert {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #fbfbfb;
+  background-color: #FBFBFB;
 }
 
-.container {
-  padding: 0 10px;
-}
-
-.advert-title {
-}
+.advert-title {}
 
 .advert-text {
   color: #141414;
-  font-family: 'Inter Tight';
+  font-family: "Inter Tight";
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -22,16 +17,22 @@
 }
 
 .advert-accent {
-  display: block;
-  background-color: #576f35;
-  color: #fbfbfb;
-  border-radius: 12px;
-  padding: 3px 10px 0 10px;
+  /* display: block; */
+  color: #FBFBFB;
+  position: relative;
+  z-index: 999;
 }
 
-.advert-main {
-  display: block;
-  padding: 6px 10px 0 10px;
+.advert-accent::before {
+  position: absolute;
+  content: "";
+  background-color: #576F35;
+  width: 355px;
+  height: 102px;
+  border-radius: 12px;
+  z-index: -1;
+  top: -3px;
+  left: -10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,45 +41,29 @@
     padding-bottom: 100px;
   }
 
-  .container {
-    padding: 0 10px;
-  }
-
   .advert-text {
     font-size: 64px;
     line-height: 1.09;
   }
 
-  .advert-accent {
-    display: block;
-    width: 100%;
-    padding: 8px 16px;
-  }
-
-  .advert-main {
-    padding: 6px 16px 0 16px;
+  .advert-accent::before {
+    width: 736px;
+    height: 86px;
+    top: -8px;
+    left: -16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding: 0;
-  }
-
   .advert-text {
     font-size: 76px;
     line-height: 1.05;
-    padding: 10px;
   }
 
-  .advert-accent {
-    display: inline-block;
-    padding: 3px 10px 0;
-    max-width: 808px;
-  }
-
-  .advert-main {
-    display: inline;
-    padding: 6px 0;
+  .advert-accent::before {
+    width: 808px;
+    height: 86px;
+    top: 0;
+    left: -13px;
   }
 }
