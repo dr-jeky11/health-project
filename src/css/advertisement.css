@@ -1,14 +1,15 @@
 .advert {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 
-.advert-title {}
+.advert-title {
+}
 
 .advert-text {
   color: #141414;
-  font-family: "Inter Tight";
+  font-family: 'Inter Tight';
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -18,15 +19,15 @@
 
 .advert-accent {
   display: block;
-  color: #FBFBFB;
+  color: #fbfbfb;
   position: relative;
   z-index: 999;
 }
 
 .advert-accent::before {
   position: absolute;
-  content: "";
-  background-color: #576F35;
+  content: '';
+  background-color: #576f35;
   width: 355px;
   height: 102px;
   border-radius: 12px;
@@ -67,7 +68,6 @@
   .advert-text {
     font-size: 76px;
     line-height: 1.05;
-    text-align: ;
   }
 
   .advert-accent {
