@@ -1,95 +1,94 @@
 .vegetables {
-    background-color: #7A3145;
+  background-color: #7a3145;
 }
 
-.container {
-    display: inline-flex;
-    padding: 80px 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
+.container-vegetables {
+  display: inline-flex;
+  padding: 80px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .vegetables-title {
-    color: #FBFBFB;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+  color: #fbfbfb;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .vegetables-title-sp {
-    color: rgba(251, 251, 251, 0.30);
-    font-family: "Inter Tight", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+  color: rgba(251, 251, 251, 0.3);
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .vegetables-text {
-    color: #FBFBFB;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29;
-    max-width: 335px;
-    text-align: left;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  max-width: 335px;
+  text-align: left;
 }
 
 .vegetables-list {
-    display: flex;
-    margin-top: 40px;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .vegetables-item {
-    display: flex;
-    padding: 32px 26px;
-    border-radius: 40px;
-    background: #FBFBFB;
-    flex-wrap: wrap;
-    gap: 14px;
+  display: flex;
+  padding: 32px 26px;
+  border-radius: 40px;
+  background: #fbfbfb;
+  flex-wrap: wrap;
+  gap: 14px;
 }
 
 .vegetables-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .vegetables-images {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .vegetables-subtitle {
-    color: #7A3145;
-    font-family: "Inter Tight";
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.0;
-    letter-spacing: -0.02em;
+  color: #7a3145;
+  font-family: 'Inter Tight';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 .vegetables-subtext {
-    color: #141414;
-    font-family: "Inter Tight";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+  color: #141414;
+  font-family: 'Inter Tight';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-    
 }
