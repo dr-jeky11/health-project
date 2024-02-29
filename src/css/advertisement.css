@@ -46,3 +46,52 @@
     display: block;
     padding: 6px 10px 0 10px;
 }
+
+@media screen and (min-width: 768px) {
+    .advert {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .advert-text {
+        font-size: 64px;
+        line-height: 1.09;
+    }
+
+    .advert-accent {
+        display: block;
+        width: 100%;
+        padding: 8px 16px;
+    }
+
+    .advert-main {
+        padding: 6px 16px 0 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        padding: 0 ;
+    }
+
+    .advert-text {
+        font-size: 76px;
+        line-height: 1.05;
+        padding: 10px;
+    }
+
+    .advert-accent {
+        display: inline;
+        padding-left: 13px;;
+    }
+
+    .advert-main {
+        display: inline-;
+        padding: 0 13px;
+    }
+}
