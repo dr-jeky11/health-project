@@ -1,63 +1,10 @@
-.container {
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-nav {
-}
-
-.logo {
-}
-
-.logo-icon {
-}
-
-.header-menu-list {
-}
-
-.header-menu-item {
-}
-
-.header-menu-link {
-}
-
-.header-btn {
-}
-
-.mob-menu {
-}
-
-.is-open {
-}
-
-.mob-menu-close {
-}
-
-.mob-icon-close {
-}
-
-.mob-menu-list {
-}
-
-.mob-menu-item {
-}
-
-.mob-menu-link {
-}
-
-.mob-btn {
-}
-
 .organic-container {
   margin: 0 auto;
   background-color: #576f35;
   padding-top: 100px;
 }
 @media screen and (min-width: 375px) {
+  .container,
   .organic-container,
   .image-container,
   .block-2-content-container {
@@ -165,6 +112,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container,
   .organic-container,
   .image-container,
   .block-2-content-container {
