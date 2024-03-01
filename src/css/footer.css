@@ -1,0 +1,166 @@
+
+.footer{
+  padding-top: 40px; 
+  padding-bottom: 40px; 
+  background-color: #7A3145;
+}
+
+.footer-container-logo{
+  margin-bottom: 40px;
+}
+
+.footer-container-icon {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 16px;
+}
+
+.footer-icon{
+  fill: #fff;
+}
+
+.footer-icon-text{
+  fill: #fff;
+}
+
+.footer-logo-text{
+  max-width: 296px;
+  color: #FBFBFB;
+  font-family: "Inter Tight"; 
+  font-size: 14px;
+  font-style: normal; 
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.footer-item{
+  color: #FBFBFB;
+  font-family: "Inter Tight";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.footer-container-address{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 80px;
+
+}
+
+.footer-tel-link{
+  color: #FBFBFB;
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.footer-address{
+  color: #FBFBFB;
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em; 
+}
+
+.footer-down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(251, 251, 251, 0.50);
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.footer-down-policy{
+    margin-right: 8px;
+}
+
+.footer-down-cookie{
+    margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer{
+  padding-top: 32px;
+  padding-bottom: 32px;
+    }
+  
+  .footer-container{
+  padding-left: 32px;
+  padding-right: 32px;
+  }
+  
+ .footer-description{
+  display: flex;
+  }
+
+  .footer-icon{
+  width: 18px;
+  height: 18px;
+  }
+
+  .footer-icon-text{
+  max-width: 168px;
+  height: 15px;
+}
+
+.footer-container-icon{
+  margin-bottom: 26px;
+}
+
+.footer-logo-text{
+  max-width: 265px;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-right: 224px;
+}
+
+.footer-list{
+  gap: 25px;
+  margin-bottom: 64px;
+}
+
+.footer-item {
+  font-size: 32px;
+}
+
+.footer-container-address{
+  gap: 25px;
+  margin-bottom: 100px;
+}
+
+.footer-down{
+  font-size: 18px;
+  line-height: 1.11;
+}
+}
+
+@media screen and (min-width: 1280px) {
+   
+}
+
