@@ -142,13 +142,11 @@
 @media screen and (min-width: 1280px) {
   .container-vegetables {
     width: 1280px;
+    padding: 100px;
   }
 
   .vegetables-org {
     width: 626px;
-  }
-
-  .vegetables-text {
   }
 
   .vegetables-item {
