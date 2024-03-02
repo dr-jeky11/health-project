@@ -29,14 +29,18 @@
             pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
             required
           />
+          <div class="inp-wrp">
           <input
-            class="modal-input valid"
+            class="modal-input inp"
             type="email"
             name="user-email"
             placeholder="Email"
             pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
             required
           />
+          <p class="text-valid">Succes!</p>
+          <p class="text-invalid">Invalid email, try again</p>
+          </div>
           <textarea
             class="modal-textarea"
             name="user-comment"
@@ -76,7 +80,7 @@
             />
             <img
               class="your-order-img"
-              src="../img/order/order-mobile@1x.jpg"
+              src="../images/order/order-mobile@1x.jpg"
               alt="Girring healtood"
             />
           </picture>
