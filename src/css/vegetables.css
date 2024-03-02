@@ -8,6 +8,9 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .vegetables-title {
@@ -35,6 +38,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
+  display: block;
   max-width: 335px;
   text-align: left;
 }
@@ -90,5 +94,51 @@
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container-vegetables {
+    width: 320px;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .container-vegetables {
+    width: 768px;
+    padding: 100px 32px;
+    gap: 50px;
+  }
+
+  .vegetables-text {
+    font-size: 16px;
+  }
+
+  .vegetables-title {
+    font-size: 64px;
+  }
+
+  .vegetables-title-sp {
+    font-size: 64px;
+  }
+
+  .vegetables-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 21px;
+    row-gap: 28px;
+    align-items: center;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-vegetables {
+    width: 1280px;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 42px) / 3);
+  }
 }

@@ -9,6 +9,7 @@
 }
 
 .container {
+  max-width: 375px;
 }
 
 .header-container {
@@ -16,7 +17,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: stretch;
+  justify-content: space-between;
 }
 
 .logo {
@@ -26,10 +27,14 @@
 }
 
 .icon-logo {
+  width: 16px;
+  height: 16px;
   fill: #fbfbfb;
 }
 
 .icon-logo-text {
+  width: 148px;
+  height: 12px;
   fill: #fbfbfb;
 }
 
@@ -57,10 +62,9 @@
 .header-menu-link {
   color: #fbfbfb;
   text-align: center;
-  font-family: 'Inter Tight';
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.25; /* 125% */
+  line-height: 1.25;
   letter-spacing: -0.02em;
   background-color: transparent;
 }
@@ -75,10 +79,9 @@
   background: #7a3145;
   color: #fbfbfb;
   margin-left: 20px;
-  font-family: 'Inter Tight';
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: -0.015em;
   text-transform: uppercase;
 }
@@ -97,21 +100,23 @@
 }
 
 .icon-menu-open {
-  fill: #fbfbfb;
+  stroke: #fbfbfb;
 }
 
 .mob-menu {
   display: flex;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 375px;
   height: 100%;
   background-color: #7a3145;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-  padding: 140px 100px 40px 100px;
+  padding-top: 240px;
+  padding-bottom: 40px;
   flex-direction: column;
+  justify-content: space-between;
   right: 0;
 }
 
@@ -131,12 +136,11 @@
 }
 
 .mob-icon-close {
-  color: #fbfbfb;
-  background-color: transparent;
+  stroke: #fbfbfb;
 }
 
 .mob-menu-nav {
-  margin-bottom: auto;
+  margin: 0 auto;
 }
 
 .mob-menu-list {
@@ -145,25 +149,56 @@
   gap: 8px;
 }
 
-.mob-menu-item {
+.mob-menu-item1 {
   display: flex;
   padding: 12px 16px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   align-self: stretch;
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.4);
   background: #fbfbfb;
 }
 
-.mob-menu-link {
+.mob-menu-item2 {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  background: #7a3145;
+}
+.mob-menu-item3 {
+  display: flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  background: #7a3145;
+}
+
+.mob-menu-link1 {
   color: #7a3145;
   text-align: center;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.mob-menu-link2,
+.mob-menu-link3 {
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
   letter-spacing: -0.02em;
 }
 
@@ -172,14 +207,93 @@
   padding: 16px 41px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   border-radius: 30px;
   background: #fbfbfb;
   color: #7a3145;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 600;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   letter-spacing: -0.015em;
   text-transform: uppercase;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .icon-logo {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon-logo-text {
+    width: 168px;
+    height: 15px;
+  }
+
+  .open-menu-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-menu-open {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mob-menu {
+    width: 351px;
+    padding-top: 360px;
+    padding-bottom: 50px;
+  }
+
+  .mob-menu-close {
+    top: 32px;
+    right: 32px;
+  }
+
+  .mob-menu-item1 {
+    padding: 12px;
+  }
+
+  .mob-menu-item2 {
+    padding: 12px 21px;
+  }
+
+  .mob-menu-item3 {
+    padding: 12px 28px;
+  }
+
+  .mob-menu-link1,
+  .mob-menu-link2,
+  .mob-menu-link3 {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .mob-btn {
+    padding: 16px 32px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .open-menu-btn {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+  }
+
+  .header-btn {
+    display: flex;
+  }
 }
