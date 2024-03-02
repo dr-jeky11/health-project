@@ -1,3 +1,7 @@
+body {
+  font-family: 'Inter Tight', sans-serif;
+}
+
 .container {
   padding: 0 20px;
   margin: 0 auto;
