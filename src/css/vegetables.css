@@ -40,10 +40,17 @@
 }
 
 .vegetables-list {
+<<<<<<< Updated upstream
     display: flex;
     margin-top: 40px;
     flex-direction: column;
     gap: 20px;
+=======
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 20px;
+>>>>>>> Stashed changes
 }
 
 .vegetables-item {
@@ -90,6 +97,39 @@
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 320px) and (max-width: 375px) {}
+
 @media screen and (min-width: 768px) {
+<<<<<<< Updated upstream
     
 }
+=======
+  .container-vegetables {
+    padding: 100px 32px;
+    gap: 50px;
+  }
+
+  .vegetables-title {
+    font-size: 64px;
+  }
+
+  .vegetables-title-sp {
+    font-size: 64px;
+  }
+
+  .vegetables-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 28px;
+    justify-content: center;
+  }
+
+  .vegetables-item {
+    flex-basis: calc ((100% - 20) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {}
+>>>>>>> Stashed changes
