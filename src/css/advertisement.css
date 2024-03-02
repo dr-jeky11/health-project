@@ -2,6 +2,8 @@
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #fbfbfb;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .advert-container {
@@ -48,6 +50,7 @@
   .advert {
     padding-top: 100px;
     padding-bottom: 100px;
+    max-width: 768px;
   }
 
   .advert-text {
@@ -72,6 +75,10 @@
   .advert-container {
     padding: 0 113px;
     width: 1280px;
+  }
+
+  .advert {
+    max-width: 1280px;
   }
 
   .advert-text {
