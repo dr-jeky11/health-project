@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/health-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/health-project/assets/index-84d80727.css">
+    <link rel="stylesheet" href="/health-project/assets/index-c14bbc83.css">
   </head>
   <body>
     <header class="header">
@@ -354,14 +354,18 @@
             pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
             required
           />
-          <input
-            class="modal-input valid"
-            type="email"
-            name="user-email"
-            placeholder="Email"
-            pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
-            required
-          />
+          <div class="inp-wrp">
+            <input
+              class="modal-input inp"
+              type="email"
+              name="user-email"
+              placeholder="Email"
+              pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
           <textarea
             class="modal-textarea"
             name="user-comment"
@@ -372,47 +376,38 @@
           <!-- </div> -->
         </form>
       </div>
-<div class="order-social-networks">
+      <div class="order-social-networks">
         <div class="order-container-img">
           <picture>
             <!-- Mobile screen -->
             <source
               media="(max-width: 767px)"
-              srcset="
-                ../images/order/order-mobile@1x.jpg 1x,
-                ../images/order/order-mobile@2x.jpg 2x
-              "
+              srcset="/health-project/assets/order-mobile@1x-8c08a88f.jpg 1x, /health-project/assets/order-mobile@2x-8510e8c3.jpg 2x"
             />
             <!-- Tablet screen -->
             <source
               media="(min-width: 768px)"
-              srcset="
-                ../images/order/order-tablet@1x.jpg 1x,
-                ../images/order/order-tablet@2x.jpg 2x
-              "
+              srcset="/health-project/assets/order-tablet@1x-944a4e6e.jpg 1x, /health-project/assets/order-tablet@2x-963f5dff.jpg 2x"
             />
             <!-- Desktop screen -->
             <source
               media="(min-width: 1280px)"
-              srcset="
-                ../images/order/order-desktop@1x.jpg 1x,
-                ../images/order/order-desktop@2x.jpg 2x
-              "
+              srcset="/health-project/assets/order-desktop@1x-5685c88c.jpg 1x, /health-project/assets/order-desktop@2x-48002c42.jpg 2x"
             />
             <img
               class="your-order-img"
-              src="../img/order/order-mobile@1x.jpg"
+              src="/health-project/assets/order-mobile@1x-8c08a88f.jpg"
               alt="Girring healtood"
             />
           </picture>
-<span class="order-overlay"></span>
+          <span class="order-overlay"></span>
         </div>
         <p class="order-text-follow">Follow us on our social networks:</p>
         <ul class="order-list">
           <li class="order-item">
             <a
               class="order-link"
-              href="https://www.instagram.com/goitclub/ "
+              href="https://www.instagram.com/goitclub/"
               target="_blank"
               >instagram</a
             >
@@ -421,7 +416,7 @@
           <li>
             <a
               class="order-link"
-              href="https://www.facebook.com/goITclub/ "
+              href="https://www.facebook.com/goITclub/"
               target="_blank"
               >facebook</a
             >
@@ -430,7 +425,7 @@
           <li>
             <a
               class="order-link"
-              href="https://www.youtube.com/c/GoIT "
+              href="https://www.youtube.com/c/GoIT"
               target="_blank"
               >youtube</a
             >
@@ -440,6 +435,7 @@
     </div>
   </div>
 </section>
+
     </main>
     <footer class="footer">
   <div class="container footer-container">
@@ -467,25 +463,22 @@
           </ul>
         </nav>
         <address class="footer-container-address">
-          <a class="footer-tel-link" href="tel:+380684439426"
-            >+380 (68) 443-94-26</a
-          >
-          <span class="footer-address"
-            >1678 S. Pioneer Road Salt <br />
-            Lake City UT 84104</span
-          >
+          <a class="footer-tel-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+          <p class="footer-address">1678 S. Pioneer Road Salt <br />
+            Lake City UT 84104</p>
         </address>
       </div>
     </div>
-    <div class="footer-container-down">
-      <div class="footer-down">
-        <a class="footer-down-policy">Privacy Policy</a> /
-        <a class="footer-down-cookie">Cookie settings</a>
-      </div>
-      <div>
-        <p class="footer-copy">&copy;Green Harvest 2023</p>
-      </div>
-    </div>
+    <ul class="footer-list-down">
+      <li class="footer-item-down">
+        <a class="footer-link-policy">Privacy Policy</a>
+        <span class="footer-slash">/</span>
+        <a class="footer-link-cookie">Cookie settings</a>
+      </li>
+      <li>
+        <p class="footer-text-copy">&copy;Green Harvest 2023</p>
+      </li>
+    </ul>
   </div>
 </footer>
 
