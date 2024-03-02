@@ -1,15 +1,13 @@
 <section class="your-order">
-  <div class="container desktop">
-    <div class="order-title-text">
-      <h2 class="order-title">
-        Fresh <span class="order-accent">Harvest</span> Box has got you covered
-      </h2>
-      <p class="order-text-description">
-        Our boxes are packed with delicious, nutritious vegetables, perfect for
-        anyone looking to eat healthier or support local farmers. Order your box
-        today and start enjoying the best that nature has to offer!
-      </p>
-    </div>
+  <div class="container">
+    <h2 class="order-title">
+      Fresh <span class="order-accent">Harvest</span> Box has got you covered
+    </h2>
+    <p class="order-text-description">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
 
     <div class="order-container-modal-social">
       <div class="modal">
@@ -21,14 +19,16 @@
             <span class="modal-accent-second">the form</span> below and we will
             contact you !
           </p>
-          <input
-            class="modal-input"
-            type="text"
-            name="user-name"
-            placeholder="Full Name"
-            pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
-            required
-          />
+          <div class="inp-wrp">
+            <input
+              class="modal-input"
+              type="text"
+              name="user-name"
+              placeholder="Full Name"
+              pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
           <div class="inp-wrp">
             <input
               class="modal-input inp"
@@ -52,40 +52,31 @@
         </form>
       </div>
       <div class="order-social-networks">
-        <div class="order-container-img">
-          <picture>
-            <!-- Mobile screen -->
-            <source
-              media="(max-width: 767px)"
-              srcset="
-                ./images/order/order-mobile@1x.jpg 1x,
-                ./images/order/order-mobile@2x.jpg 2x
-              "
-            />
-            <!-- Tablet screen -->
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/order/order-tablet@1x.jpg 1x,
-                ./images/order/order-tablet@2x.jpg 2x
-              "
-            />
-            <!-- Desktop screen -->
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./images/order/order-desktop@1x.jpg 1x,
-                ./images/order/order-desktop@2x.jpg 2x
-              "
-            />
-            <img
-              class="your-order-img"
-              src="./images/order/order-mobile@1x.jpg"
-              alt="Girring healtood"
-            />
-          </picture>
-          <span class="order-overlay"></span>
-        </div>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="./images/order/order.jpg 1x, ./images/order/order-2x.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/order/order-tab.jpg    1x,
+              ./images/order/order-tab-2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./images/order/order-mob.jpg    1x,
+              ./images/order/order-mob-2x.jpg 2x
+            "
+          />
+          <img
+            class="order-img"
+            src="./images/order/order.jpg"
+            alt="woman in sport-top makes herself bottle of water with fruits and lemon juice"
+          />
+        </picture>
         <p class="order-text-follow">Follow us on our social networks:</p>
         <ul class="order-list">
           <li class="order-item">
@@ -95,18 +86,16 @@
               target="_blank"
               >instagram</a
             >
-            <span class="order-slash">&#47;</span>
           </li>
-          <li>
+          <li class="order-item">
             <a
               class="order-link"
               href="https://www.facebook.com/goITclub/"
               target="_blank"
               >facebook</a
             >
-            <span class="order-slash">&#47;</span>
           </li>
-          <li>
+          <li class="order-item">
             <a
               class="order-link"
               href="https://www.youtube.com/c/GoIT"
