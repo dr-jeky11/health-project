@@ -4,12 +4,15 @@
   background-color: #fbfbfb;
 }
 
-.advert-title {
+.advert-container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 375px;
 }
 
 .advert-text {
   color: #141414;
-  font-family: 'Inter Tight';
+  font-family: 'Inter Tight', sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -37,8 +40,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+.advert-container {
     padding: 0 32px;
+    width: 768px;
   }
 
   .advert {
@@ -60,9 +64,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding: 0 20px;
-    width: 1094px;
+  .advert-container {
+    padding: 0 113px;
+    width: 1280px;
   }
 
   .advert-text {
