@@ -8,27 +8,24 @@ ol {
 
 .howitworks-section {}
 
-.howitworks-img-box {
-    max-width: 375px;
+.hiw-container-img {
+    background-color: #7A3145;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #7A3145;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
 }
 
-.howitworks-img {
-    width: 100%;
+.howitworks-img-box {
+    max-width: 375px;
+}
+
+.hiw-container-text {
+    background-color: #576F35;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .howitworks-content-box {
     max-width: 375px;
-    display: block;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #576F35;
-    margin: 0 auto;
 }
 
 .howitworks-title {
@@ -87,10 +84,11 @@ ol {
 
 .howitworks-items::before {
     content: '';
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     background-color: #7A3145;
-    box-shadow: 0 0 0 5px #7A31454D;
+    /* box-shadow: 0 0 0 5px #7A31454D; */
+    border: 5px solid #d3bec4;
     border-radius: 50%;
     left: 29px;
     top: 50%;
@@ -106,4 +104,78 @@ ol {
     font-weight: 600;
     line-height: 1;
     letter-spacing: -0.02em;
+}
+
+/* ! How it works Tab */
+
+@media screen and (min-width: 768px) {
+
+    .hiw-container-img {
+        padding: 100px 64px;
+    }
+
+    .howitworks-img-box {
+        max-width: 768px;
+    }
+
+    .hiw-container-text {
+        padding: 100px 159px;
+    }
+
+    .howitworks-content-box {
+        max-width: 768px;
+    }
+
+    .howitworks-title {
+        max-width: 450px;
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .howitworks-text {
+        max-width: 450px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 50px;
+    }
+
+    .howitworks-items {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 450px;
+    }
+}
+
+/* ! How it works Desktop */
+
+@media screen and (min-width: 1280px) {
+
+    .howitworks-section {
+        max-width: 1280px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .hiw-container-img {
+        max-width: 630px;
+        padding: 100px;
+    }
+
+    .howitworks-img-box {
+        max-width: 630px;
+
+    }
+
+    .hiw-container-text {
+        max-width: 650px;
+        padding: 100px 100px 160px;
+    }
+
+    .howitworks-content-box {
+        /* max-width: 650px; */
+
+    }
+
+
+
 }

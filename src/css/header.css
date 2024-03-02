@@ -1,20 +1,16 @@
 .header {
   display: flex;
   position: absolute;
-  top: 32px;
+  top: 20px;
   left: auto;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.container {
-  max-width: 375px;
-}
-
 .header-container {
-  margin: 0;
   width: 100%;
+  max-width: 375px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,6 +53,11 @@
   gap: 10px;
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.4);
+  cursor: pointer;
+}
+
+.header-menu-item:hover {
+  border: 1px solid rgba(251, 251, 251);
 }
 
 .header-menu-link {
@@ -74,7 +75,7 @@
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  border: none;
   border-radius: 30px;
   background: #7a3145;
   color: #fbfbfb;
@@ -84,6 +85,12 @@
   line-height: 1.11;
   letter-spacing: -0.015em;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background: #622133;
 }
 
 .open-menu-btn {
@@ -103,11 +110,24 @@
   stroke: #fbfbfb;
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  background: rgba(20, 20, 20, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 1999;
+}
+
 .mob-menu {
   display: flex;
   position: fixed;
   top: 0;
-  width: 375px;
+  width: 100%;
   height: 100%;
   background-color: #7a3145;
   opacity: 0;
@@ -118,6 +138,7 @@
   flex-direction: column;
   justify-content: space-between;
   right: 0;
+  z-index: 2000;
 }
 
 .is-open {
@@ -150,37 +171,43 @@
 }
 
 .mob-menu-item1 {
-  display: flex;
+  /* display: flex; */
   padding: 12px 16px;
   justify-content: center;
   align-items: center;
-  align-self: stretch;
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.4);
   background: #fbfbfb;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu-item2 {
-  display: flex;
+  /* display: flex; */
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  align-self: stretch;
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.4);
-  background: #7a3145;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu-item3 {
-  display: flex;
+  /* display: flex; */
   padding: 12px 32px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  align-self: stretch;
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.4);
-  background: #7a3145;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-item2:hover,
+.mob-menu-item2:focus,
+.mob-menu-item3:hover,
+.mob-menu-item3:focus {
+  background-color: #fbfbfb;
 }
 
 .mob-menu-link1 {
@@ -190,6 +217,12 @@
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-link1:hover,
+.mob-menu-link1:focus {
+  color: rgba(122, 49, 69, 0.7);
 }
 
 .mob-menu-link2,
@@ -200,6 +233,14 @@
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-link2:hover,
+.mob-menu-link2:focus,
+.mob-menu-link3:hover,
+.mob-menu-link3:focus {
+  color: #7a3145;
 }
 
 .mob-btn {
@@ -216,19 +257,30 @@
   letter-spacing: -0.015em;
   text-transform: uppercase;
   margin: 0 auto;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-btn:hover,
+.mob-btn:focus {
+  color: rgba(122, 49, 69, 0.7);
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  .header {
+    top: 32px;
   }
 
-  .icon-logo {
+  .header-container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .logo-icon {
     width: 18px;
     height: 18px;
   }
 
-  .icon-logo-text {
+  .logo-icon-text {
     width: 168px;
     height: 15px;
   }
@@ -277,12 +329,15 @@
     padding: 16px 32px;
     font-size: 18px;
     line-height: 1.11;
+    height: 52px;
+    width: 157px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .header-container {
     max-width: 1280px;
+    padding: 0 100px;
   }
 
   .open-menu-btn {
@@ -295,5 +350,10 @@
 
   .header-btn {
     display: flex;
+  }
+
+  .header-btn:hover,
+  .header-btn:focus {
+    background: #622133;
   }
 }
