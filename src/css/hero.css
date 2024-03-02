@@ -45,8 +45,8 @@
 .hero-image {
   height: 370px;
   background-image: image-set(
-    url(./images/hero/hero-img-m.jpg),
-    url(./images/hero/hero-img-m@2x.jpg)
+    url(/images/hero/hero-img-m.jpg),
+    url(/images/hero/hero-img-m@2x.jpg)
   );
 }
 
@@ -88,8 +88,8 @@
   .hero-image {
     height: 539px;
     background-image: image-set(
-      url(./images/hero/hero-img-tab.jpg),
-      url(./images/hero/hero-img-tab@2x.jpg)
+      url(/images/hero/hero-img-tab.jpg),
+      url(/images/hero/hero-img-tab@2x.jpg)
     );
   }
 }
@@ -119,8 +119,8 @@
     width: 100%;
     height: auto;
     background-image: image-set(
-      url(./images/hero/hero-img.jpg),
-      url(./images/hero/hero-img@2x.jpg)
+      url(/images/hero/hero-img.jpg),
+      url(/images/hero/hero-img@2x.jpg)
     );
   }
 }
