@@ -42,7 +42,7 @@
 }
 
 @media screen and (min-width: 768px) {
-.advert-container {
+  .advert-container {
     padding: 0 32px;
     width: 768px;
   }
@@ -67,6 +67,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .advert {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
   .advert-container {
     padding: 0 113px;
     width: 1280px;
