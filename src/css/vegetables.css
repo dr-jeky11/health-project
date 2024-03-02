@@ -2,7 +2,7 @@
     background-color: #7A3145;
 }
 
-.container {
+.container-vegetables {
     display: inline-flex;
     padding: 80px 20px;
     flex-direction: column;
