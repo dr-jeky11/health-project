@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/health-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/health-project/assets/index-a6662beb.css">
+    <link rel="stylesheet" href="/health-project/assets/index-e3ee4d76.css">
   </head>
   <body>
     <header class="header">
@@ -315,27 +315,122 @@
   </ul>
 </section>
 
-      <section class="your-order-section">
-    <div class="container">
-        <div class="text-container">
-            <h2 class="your-order-h2">Fresh <span class="Harvest">Harvest</span> Box has got you covered</h2>
-            <p class="your-order-p">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-        </div>
-        <ul class="div-list">
-            <li class="div-list-li">
-                <div class="list-li-container">
-                    <h2 class="list-li-container-h2">
-
-                    </h2>
-                </div>
-            </li>
-            <li class="div-list-li">
-                <div class="list-li-container">
-                    <picture></picture>
-                </div>
-            </li>
-        </ul>
+      <section class="your-order">
+  <div class="container desktop">
+    <div class="order-title-text">
+      <h2 class="order-title">
+        Fresh <span class="order-accent">Harvest</span> Box has got you covered
+      </h2>
+      <p class="order-text-description">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
     </div>
+
+    <div class="order-container-modal-social">
+      <div class="modal">
+        <form>
+          <!-- <div class="modal-container"> -->
+          <p class="modal-title">
+            Ordering <span class="modal-accent-first">from us</span> is quick
+            and easy! Fill out
+            <span class="modal-accent-second">the form</span> below and we will
+            contact you !
+          </p>
+          <input
+            class="modal-input"
+            type="text"
+            name="user-name"
+            placeholder="Full Name"
+            pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <input
+            class="modal-input valid"
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9.-]{1,})@([A-z0-9.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <textarea
+            class="modal-textarea"
+            name="user-comment"
+            placeholder="Comment"
+            id="user-comment"
+          ></textarea>
+          <button class="modal-btn" type="submit">Send</button>
+          <!-- </div> -->
+        </form>
+      </div>
+<div class="order-social-networks">
+        <div class="order-container-img">
+          <picture>
+            <!-- Mobile screen -->
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../images/order/order-mobile@1x.jpg 1x,
+                ../images/order/order-mobile@2x.jpg 2x
+              "
+            />
+            <!-- Tablet screen -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ../images/order/order-tablet@1x.jpg 1x,
+                ../images/order/order-tablet@2x.jpg 2x
+              "
+            />
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../images/order/order-desktop@1x.jpg 1x,
+                ../images/order/order-desktop@2x.jpg 2x
+              "
+            />
+            <img
+              class="your-order-img"
+              src="../img/order/order-mobile@1x.jpg"
+              alt="Girring healtood"
+            />
+          </picture>
+<span class="order-overlay"></span>
+        </div>
+        <p class="order-text-follow">Follow us on our social networks:</p>
+        <ul class="order-list">
+          <li class="order-item">
+            <a
+              class="order-link"
+              href="https://www.instagram.com/goitclub/ "
+              target="_blank"
+              >instagram</a
+            >
+            <span class="order-slash">&#47;</span>
+          </li>
+          <li>
+            <a
+              class="order-link"
+              href="https://www.facebook.com/goITclub/ "
+              target="_blank"
+              >facebook</a
+            >
+            <span class="order-slash">&#47;</span>
+          </li>
+          <li>
+            <a
+              class="order-link"
+              href="https://www.youtube.com/c/GoIT "
+              target="_blank"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
     </main>
     <footer class="footer">
