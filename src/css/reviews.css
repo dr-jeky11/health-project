@@ -80,11 +80,6 @@
 /* !---------------- MEDIA TABLET --------------------- */
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding: 0 32px;
-  }
-
   .reviews-logo {
     max-width: 553px;
   }
@@ -126,10 +121,6 @@
 /* !---------------- MEDIA DESKTOP --------------------- */
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-  }
-
   .reviews-card {
     margin-bottom: 100px;
   }
