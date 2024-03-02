@@ -20,18 +20,33 @@
   display: flex;
   gap: 4px;
   margin-right: auto;
+  /* align-items: center; */
 }
 
 .icon-logo {
   width: 16px;
   height: 16px;
   fill: #fbfbfb;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .icon-logo-text {
   width: 148px;
   height: 12px;
   fill: #fbfbfb;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.logo-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.logo-icon-text {
+  width: 148px;
+  height: 12px;
 }
 
 .header-nav {
@@ -273,6 +288,20 @@
   .header-container {
     max-width: 768px;
     padding: 0 32px;
+  }
+
+  .logo {
+    gap: 8px;
+  }
+
+  .icon-logo {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon-logo-text {
+    width: 168px;
+    height: 15px;
   }
 
   .logo-icon {
