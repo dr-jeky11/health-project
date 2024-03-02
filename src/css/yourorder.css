@@ -402,11 +402,7 @@
 }
 
 
-
-
-
-
-@media screen and (min-width: 320px) and (max-width: 374.99px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .order-title {
     width: 100%;
   }
@@ -430,6 +426,5 @@
   .order-container-img {
     width: 100%;
   }
-}
 
 

@@ -1,3 +1,7 @@
+body {
+  font-family: 'Inter Tight', sans-serif;
+}
+
 .container {
   padding: 0 20px;
   margin: 0 auto;
@@ -12,12 +16,14 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
+    padding: 0 100px;
   }
 }
 

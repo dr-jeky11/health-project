@@ -1,0 +1,252 @@
+.footer {
+  padding: 40px 0;
+  background-color: #7a3145;
+}
+
+.footer-container-logo {
+  display: flex;
+  flex-direction: column;
+  width: 296px;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.footer-container-icon {
+  display: flex;
+  align-items: center;
+  gap: 2px 4px;
+}
+
+.footer-icon {
+  fill: #fff;
+}
+
+.footer-icon-text {
+  fill: #fff;
+}
+
+.footer-logo-text {
+  color: #fbfbfb;
+  font-family: 'Inter Tight';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.footer-container-nav {
+  margin-bottom: 80px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.footer-item {
+  color: #fbfbfb;
+  font-family: 'Inter Tight';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.footer-container-address {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-tel-link {
+  color: #fbfbfb;
+  font-family: 'Inter Tight';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.footer-address {
+  color: #fbfbfb;
+  font-family: 'Inter Tight';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.footer-list-down{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-link-policy{
+  color: rgba(251, 251, 251, 0.50);
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+.footer-slash{
+  color: rgba(251, 251, 251, 0.50);
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.footer-link-cookie {
+  color: rgba(251, 251, 251, 0.50);
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+.footer-text-copy{
+  color: rgba(251, 251, 251, 0.50);
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.02em
+
+@media screen and (min-width: 768px) {
+  .footer-container-icon {
+    gap: 2px 8px;
+  }
+
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footer-container {
+    padding: 0 32px;
+  }
+
+  .footer-description {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .footer-container-logo {
+    width: 265px;
+    gap: 25px;
+  }
+
+  .footer-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-icon-text {
+    width: 168px;
+    height: 15px;
+  }
+
+  .footer-logo-text {
+    font-family: 'Inter Tight';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  .footer-container-nav {
+    margin-bottom: 100px;
+    margin-left: 224px;
+  }
+
+  .footer-list {
+    gap: 25px;
+    margin-bottom: 64px;
+  }
+
+  .footer-item {
+    font-size: 32px;
+  }
+
+  .footer-container-address {
+    gap: 25px;
+  }
+
+  .footer-tel-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+.footer-address{
+  font-size: 18px;
+  line-height: 1.11;
+}
+
+.footer-link-policy{
+font-size: 18px;
+line-height: 1.11;
+}
+
+.footer-slash{
+font-size: 18px;
+line-height: 1.11;
+}
+
+.footer-link-cookie{
+font-size: 18px;
+line-height: 1.11;
+}
+
+.footer-text-copy{
+font-size: 18px;
+  line-height: 1.11;
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 50px 0;
+  }
+
+  .footer-container {
+    padding: 0 100px;
+  }
+
+  .footer-container-logo {
+    margin-bottom: 0;
+  }
+
+  .footer-container-nav {
+    display: flex;
+    margin-left: 302px;
+    margin-bottom: 125px;
+    align-items: baseline;
+  }
+
+  .footer-nav {
+    margin-right: 121px;
+  }
+
+  .footer-list {
+    margin-bottom: 0;
+  }
+
+  .footer-container-address {
+    margin-bottom: 0;
+  }
+}
