@@ -138,6 +138,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .vegetables {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
   .container-vegetables {
     width: 1280px;
     padding: 100px;

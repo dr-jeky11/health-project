@@ -328,8 +328,9 @@
 
 @media screen and (min-width: 1280px) {
   .your-order {
+    max-width: 1280px;
+    margin: 0 auto;
     padding: 100px;
-    display: inline-flex;
   }
 
   .desktop {
