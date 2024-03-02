@@ -26,12 +26,12 @@
     <header class="header">
   <div class="container header-container">
     <div class="logo">
-      <a class="icon-logo" href=""
+      <a class="icon-logo" href="./index.html"
         ><svg class="logo-icon" width="16" height="16">
           <use href="/health-project/assets/icons-ad66a901.svg#icon-logo"></use>
         </svg>
       </a>
-      <a class="icon-logo-text">
+      <a class="icon-logo-text" href="./index.html">
         <svg class="logo-icon" width="148" height="12">
           <use href="/health-project/assets/icons-ad66a901.svg#icon-text"></use>
         </svg>
@@ -41,19 +41,13 @@
     <nav class="header-nav">
       <ul class="header-menu-list">
         <li class="header-menu-item">
-          <a class="header-menu-link" href="/src/partials/howitworks.html"
-            >How It Works</a
-          >
+          <a class="header-menu-link" href="#howitworks">How It Works</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="/src/partials/vegetables.html"
-            >Vegetables</a
-          >
+          <a class="header-menu-link" href="#vegetables">Vegetables</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="/src/partials/reviews.html"
-            >Reviews</a
-          >
+          <a class="header-menu-link" href="#reviews">Reviews</a>
         </li>
       </ul>
     </nav>
@@ -74,19 +68,13 @@
     <nav class="mob-menu-nav">
       <ul class="mob-menu-list">
         <li class="mob-menu-item1">
-          <a class="mob-menu-link1" href="/src/partials/howitworks.html"
-            >How It Works</a
-          >
+          <a class="mob-menu-link1" href="#howitworks">How It Works</a>
         </li>
         <li class="mob-menu-item2">
-          <a class="mob-menu-link2" href="/src/partials/vegetables.html"
-            >Vegetables</a
-          >
+          <a class="mob-menu-link2" href="#vegetables">Vegetables</a>
         </li>
         <li class="mob-menu-item3">
-          <a class="mob-menu-link3" href="/src/partials/reviews.html"
-            >Reviews</a
-          >
+          <a class="mob-menu-link3" href="#reviews">Reviews</a>
         </li>
       </ul>
     </nav>
@@ -132,44 +120,73 @@
   </div>
 </section>
 
-      <section class="howitworks-section">
-    <div class="howitworks-img-box">
-        <div class="container">
-            <h2 class="visually-hidden">How it works</h2>
-            <picture>
-                <source media="(max-width: 767px)" srcset="/health-project/assets/how-it-works-mob-900b35e2.png 1x, /health-project/assets/how-it-works-mob-2x-544c381a.png 2x">
-                <source media="(min-width: 768px)" srcset="/health-project/assets/how-it-works-tab-a83aae79.png 1x, /health-project/assets/how-it-works-tab-2x-313a5af9.png 2x">
-                <source media="(min-width: 1280px)" srcset="/health-project/assets/how-it-works-649d9ee9.png 1x, /health-project/assets/how-it-works-2x-a46a7dda.png 2x">
-                <img class="howitworks-img" src="/health-project/assets/how-it-works-tab-a83aae79.png" alt="how it works"
-                    width="640" height="640">
-            </picture>
-        </div>
+      <section id="howitworks" class="howitworks-section">
+  <div class="howitworks-img-box">
+    <div class="container">
+      <h2 class="visually-hidden">How it works</h2>
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/health-project/assets/how-it-works-mob-900b35e2.png 1x, /health-project/assets/how-it-works-mob-2x-544c381a.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/health-project/assets/how-it-works-tab-a83aae79.png 1x, /health-project/assets/how-it-works-tab-2x-313a5af9.png 2x"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/health-project/assets/how-it-works-649d9ee9.png 1x, /health-project/assets/how-it-works-2x-a46a7dda.png 2x"
+        />
+        <img
+          class="howitworks-img"
+          src="/health-project/assets/how-it-works-tab-a83aae79.png"
+          alt="how it works"
+          width="640"
+          height="640"
+        />
+      </picture>
     </div>
+  </div>
 
-    <div class="howitworks-content-box">
-        <div class="container">
-            <h3 class="howitworks-title">To order your <span class="howitworks-title-var">vegetable</span> basket,
-                simply follow these <span class="howitworks-title-var">easy
-                    steps</span></h3>
-            <p class="howitworks-text">Our baskets are assembled with care and delivered straight to your doorstep, so
-                you
-                can enjoy the taste of fresh fruit
-                without ever leaving your home.</p>
-            <ol class="howitworks-list">
-                <li class="howitworks-items"> <span>Just choose <span class="howitworks-items-bold">the vegetable</span>
-                        you want to order by clicking on the checkboxes <span class="howitworks-items-bold">next to
-                            it</span>.</span>
-                </li>
-                <li class="howitworks-items"><span>Click on <span class="howitworks-items-bold">the basket</span> and
-                        fill out the form.</span>
-                </li>
-                <li class="howitworks-items"><span>Sit back and relax! Your <span class="howitworks-items-bold">fresh
-                            vegetables</span> basket will be delivered.</span>
-                </li>
-            </ol>
-        </div>
+  <div class="howitworks-content-box">
+    <div class="container">
+      <h3 class="howitworks-title">
+        To order your
+        <span class="howitworks-title-var">vegetable</span> basket, simply
+        follow these <span class="howitworks-title-var">easy steps</span>
+      </h3>
+      <p class="howitworks-text">
+        Our baskets are assembled with care and delivered straight to your
+        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+        your home.
+      </p>
+      <ol class="howitworks-list">
+        <li class="howitworks-items">
+          <span
+            >Just choose
+            <span class="howitworks-items-bold">the vegetable</span> you want to
+            order by clicking on the checkboxes
+            <span class="howitworks-items-bold">next to it</span>.</span
+          >
+        </li>
+        <li class="howitworks-items">
+          <span
+            >Click on <span class="howitworks-items-bold">the basket</span> and
+            fill out the form.</span
+          >
+        </li>
+        <li class="howitworks-items">
+          <span
+            >Sit back and relax! Your
+            <span class="howitworks-items-bold">fresh vegetables</span> basket
+            will be delivered.</span
+          >
+        </li>
+      </ol>
     </div>
+  </div>
 </section>
+
       <section class="advert">
   <div class="advert-container">
     <h2 class="visually-hidden">Advertisement</h2>
@@ -180,7 +197,7 @@
   </div>
 </section>
 
-      <section class="vegetables">
+      <section id="vegetables" class="vegetables">
   <div class="container-vegetables">
     <h1 class="vegetables-title">
       organic<span class="vegetables-title-sp"> vegetables</span>
@@ -196,49 +213,78 @@
           <h3 class="vegetables-subtitle">eggplant</h3>
           <p class="vegetables-subtext">60 UAH / kg</p>
         </div>
-        <img class="vegetables-images" 
-        src="/health-project/assets/eggplant_mob_1x-16da71b9.png" alt="eggplant" width="282"
-          height="243" />
+        <img
+          class="vegetables-images"
+          src="/health-project/assets/eggplant_mob_1x-16da71b9.png"
+          alt="eggplant"
+          width="282"
+          height="243"
+        />
       </li>
       <li class="vegetables-item">
         <div class="vegetables-content">
           <h3 class="vegetables-subtitle">leek</h3>
           <p class="vegetables-subtext">50 UAH / kg</p>
         </div>
-        <img class="vegetables-images" 
-        src="/health-project/assets/leek_mob_1x-da256eac.png" alt="leek" width="282" height="243" />
+        <img
+          class="vegetables-images"
+          src="/health-project/assets/leek_mob_1x-da256eac.png"
+          alt="leek"
+          width="282"
+          height="243"
+        />
       </li>
       <li class="vegetables-item">
         <div class="vegetables-content">
           <h3 class="vegetables-subtitle">mushrooms</h3>
           <p class="vegetables-subtext">40 UAH / kg</p>
         </div>
-        <img class="vegetables-images" 
-        src="/health-project/assets/mushrooms_mob_1x-582d57c1.png" alt="mushrooms" width="282" height="243" />
+        <img
+          class="vegetables-images"
+          src="/health-project/assets/mushrooms_mob_1x-582d57c1.png"
+          alt="mushrooms"
+          width="282"
+          height="243"
+        />
       </li>
       <li class="vegetables-item">
         <div class="vegetables-content">
           <h3 class="vegetables-subtitle">corn</h3>
           <p class="vegetables-subtext">60 UAH / kg</p>
         </div>
-        <img class="vegetables-images" 
-        src="/health-project/assets/corn_mob_1x-03c73504.png" alt="corn" width="282" height="243" />
+        <img
+          class="vegetables-images"
+          src="/health-project/assets/corn_mob_1x-03c73504.png"
+          alt="corn"
+          width="282"
+          height="243"
+        />
       </li>
       <li class="vegetables-item">
         <div class="vegetables-content">
           <h3 class="vegetables-subtitle">sweet potatoes</h3>
           <p class="vegetables-subtext">50 UAH / kg</p>
         </div>
-        <img class="vegetables-images" 
-        src="/health-project/assets/sweet_potatoes_mob_1x-beffa4b8.png" alt="sweet potatoes" width="282" height="243" />
+        <img
+          class="vegetables-images"
+          src="/health-project/assets/sweet_potatoes_mob_1x-beffa4b8.png"
+          alt="sweet potatoes"
+          width="282"
+          height="243"
+        />
       </li>
       <li class="vegetables-item">
         <div class="vegetables-content">
           <h3 class="vegetables-subtitle">carrot</h3>
           <p class="vegetables-subtext">40 UAH / kg</p>
         </div>
-        <img class="vegetables-images" 
-        src="/health-project/assets/carrot_mob_1x-06c970fb.png" alt="carrot" width="282" height="243" />
+        <img
+          class="vegetables-images"
+          src="/health-project/assets/carrot_mob_1x-06c970fb.png"
+          alt="carrot"
+          width="282"
+          height="243"
+        />
       </li>
     </ul>
   </div>
@@ -343,15 +389,19 @@
       <div class="footer-container-nav">
         <nav class="footer-nav">
           <ul class="footer-list">
-            <li class="footer-item"><a href="">how it works</a></li>
-            <li class="footer-item"><a href="">vegetables</a></li>
+            <li class="footer-item"><a href="#howitworks">how it works</a></li>
+            <li class="footer-item"><a href="#vegetables">vegetables</a></li>
             <li class="footer-item"><a href="#reviews">reviews</a></li>
           </ul>
         </nav>
         <address class="footer-container-address">
-          <a class="footer-tel-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
-          <span class="footer-address">1678 S. Pioneer Road Salt <br />
-            Lake City UT 84104</span>
+          <a class="footer-tel-link" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
+          <span class="footer-address"
+            >1678 S. Pioneer Road Salt <br />
+            Lake City UT 84104</span
+          >
         </address>
       </div>
     </div>
@@ -366,6 +416,7 @@
     </div>
   </div>
 </footer>
+
     
   </body>
 </html>
