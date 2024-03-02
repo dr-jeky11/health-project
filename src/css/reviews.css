@@ -29,6 +29,7 @@
 
 .reviews-card {
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .reviews-list-content:nth-child(2) {
@@ -70,9 +71,10 @@
   font-family: Inter Tight;
   font-size: 14px;
   font-weight: 500;
-  line-height: 18px;
+  line-height: 1.4;
 
   text-align: center;
+  padding-bottom: 10px;
 }
 
 /* !---------------- MEDIA TABLET --------------------- */
@@ -80,6 +82,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    padding: 0 32px;
   }
 
   .reviews-logo {
@@ -90,8 +93,16 @@
     max-width: 553px;
   }
 
+  .reviews-name {
+    font-size: 18px;
+  }
+
   .reviews-list-content {
     width: calc((100% - 38px) / 2);
+  }
+
+  .reviews-card {
+    margin-bottom: 100px;
   }
 
   .reviews-list {
@@ -106,6 +117,10 @@
   .reviews-list-content:nth-child(3) {
     display: none;
   }
+
+  .reviews-customer-review {
+    font-size: 16px;
+  }
 }
 
 /* !---------------- MEDIA DESKTOP --------------------- */
@@ -115,8 +130,13 @@
     width: 1280px;
   }
 
+  .reviews-card {
+    margin-bottom: 100px;
+  }
+
   .reviews-list-content {
     width: calc((100% - 38px) / 3);
+    padding: 20px;
   }
 
   .reviews-list-content:nth-child(2) {
@@ -125,5 +145,16 @@
 
   .reviews-list-content:nth-child(3) {
     display: flex;
+  }
+
+  .reviews-customer-review {
+    font-size: 16px;
+    padding-bottom: 0px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+
+    text-align: center;
   }
 }
