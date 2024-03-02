@@ -1,103 +1,114 @@
 .vegetables {
-    background-color: #7A3145;
+  background-color: #7A3145;
 }
 
 .container-vegetables {
-    display: inline-flex;
-    padding: 80px 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1280px;
-    min-width: 320px;
+  display: inline-flex;
+  padding: 80px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .vegetables-title {
-    color: #FBFBFB;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+  color: #FBFBFB;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .vegetables-title-sp {
-    color: rgba(251, 251, 251, 0.30);
-    font-family: "Inter Tight", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+  color: rgba(251, 251, 251, 0.30);
+  font-family: "Inter Tight", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .vegetables-text {
-    color: #FBFBFB;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29;
-    max-width: 335px;
-    text-align: left;
+  color: #FBFBFB;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  display: block;
+  max-width: 335px;
+  text-align: left;
 }
 
 .vegetables-list {
-    display: flex;
-    margin-top: 40px;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .vegetables-item {
-    display: flex;
-    padding: 32px 26px;
-    border-radius: 40px;
-    background: #FBFBFB;
-    flex-wrap: wrap;
-    gap: 14px;
+  display: flex;
+  padding: 32px 26px;
+  border-radius: 40px;
+  background: #FBFBFB;
+  flex-wrap: wrap;
+  gap: 14px;
 }
 
 .vegetables-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .vegetables-images {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .vegetables-subtitle {
-    color: #7A3145;
-    font-family: "Inter Tight";
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.0;
-    letter-spacing: -0.02em;
+  color: #7A3145;
+  font-family: "Inter Tight";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
 }
 
 .vegetables-subtext {
-    color: #141414;
-    font-family: "Inter Tight";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+  color: #141414;
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container-vegetables {
+    width: 320px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .container-vegetables {
+    width: 768px;
     padding: 100px 32px;
     gap: 50px;
+  }
+
+  .vegetables-text {
+    font-size: 16px;
   }
 
   .vegetables-title {
@@ -112,14 +123,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 20px;
+    column-gap: 21px;
     row-gap: 28px;
-    justify-content: center;
+    align-items: center;
   }
 
   .vegetables-item {
-    flex-basis: calc ((100% - 20) / 2);
+    width: calc((100% - 20px) / 2);
   }
 }
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+  .container-vegetables {
+    width: 1280px;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 42px) / 3);
+  }
+}
