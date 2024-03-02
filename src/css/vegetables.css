@@ -8,6 +8,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    max-width: 1280px;
+    min-width: 320px;
 }
 
 .vegetables-title {
