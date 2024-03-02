@@ -3,10 +3,7 @@
 }
 
 .container-vegetables {
-  display: inline-flex;
   padding: 80px 20px;
-  flex-direction: column;
-  align-items: flex-start;
   max-width: 1280px;
   min-width: 320px;
 }
@@ -41,7 +38,7 @@
 
 .vegetables-text {
   color: #fbfbfb;
-  font-family: "Inter Tight";
+  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
@@ -75,7 +72,8 @@
 .vegetables-images {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 282px;
+  height: 243px;
   height: auto;
   display: block;
 }
