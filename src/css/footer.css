@@ -1,4 +1,6 @@
 .footer {
+  max-width: 375px;
+  margin: 0 auto;
   padding: 40px 0;
   background-color: #7a3145;
 }
@@ -129,6 +131,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
   .footer-container-icon {
     gap: 2px 8px;
   }
