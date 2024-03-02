@@ -1,5 +1,5 @@
 .vegetables {
-  background-color: #7A3145;
+  background-color: #7a3145;
 }
 
 .container-vegetables {
@@ -14,9 +14,7 @@
 }
 
 .vegetables-title {
-  color: #FBFBFB;
-}
-
+  color: #fbfbfb;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -36,7 +34,7 @@
 }
 
 .vegetables-text {
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
@@ -56,7 +54,7 @@
   display: flex;
   padding: 32px 26px;
   border-radius: 40px;
-  background: #FBFBFB;
+  background: #fbfbfb;
   flex-wrap: wrap;
   gap: 14px;
 }
@@ -77,17 +75,17 @@
 }
 
 .vegetables-subtitle {
-  color: #7A3145;
-  font-family: "Inter Tight";
+  color: #7a3145;
+  font-family: 'Inter Tight';
   font-size: 28px;
   font-weight: 600;
-  line-height: 1.0;
+  line-height: 1;
   letter-spacing: -0.02em;
 }
 
 .vegetables-subtext {
   color: #141414;
-  font-family: "Inter Tight";
+  font-family: 'Inter Tight';
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
