@@ -144,7 +144,6 @@
   .footer-description {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
   }
 
   .footer-container-logo {
@@ -236,7 +235,6 @@
     display: flex;
     margin-left: 302px;
     margin-bottom: 125px;
-    align-items: baseline;
   }
 
   .footer-nav {
