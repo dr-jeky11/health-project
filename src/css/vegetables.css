@@ -1,5 +1,5 @@
 .vegetables {
-  background-color: #7a3145;
+  background-color: #7A3145;
 }
 
 .container-vegetables {
@@ -8,10 +8,15 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .vegetables-title {
-  color: #fbfbfb;
+  color: #FBFBFB;
+}
+
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -31,10 +36,11 @@
 }
 
 .vegetables-text {
-  color: #fbfbfb;
+  color: #FBFBFB;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
+  display: block;
   max-width: 335px;
   text-align: left;
 }
@@ -50,7 +56,7 @@
   display: flex;
   padding: 32px 26px;
   border-radius: 40px;
-  background: #fbfbfb;
+  background: #FBFBFB;
   flex-wrap: wrap;
   gap: 14px;
 }
@@ -71,17 +77,17 @@
 }
 
 .vegetables-subtitle {
-  color: #7a3145;
-  font-family: 'Inter Tight';
+  color: #7A3145;
+  font-family: "Inter Tight";
   font-size: 28px;
   font-weight: 600;
-  line-height: 1;
+  line-height: 1.0;
   letter-spacing: -0.02em;
 }
 
 .vegetables-subtext {
   color: #141414;
-  font-family: 'Inter Tight';
+  font-family: "Inter Tight";
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -90,5 +96,51 @@
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container-vegetables {
+    width: 320px;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .container-vegetables {
+    width: 768px;
+    padding: 100px 32px;
+    gap: 50px;
+  }
+
+  .vegetables-text {
+    font-size: 16px;
+  }
+
+  .vegetables-title {
+    font-size: 64px;
+  }
+
+  .vegetables-title-sp {
+    font-size: 64px;
+  }
+
+  .vegetables-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 21px;
+    row-gap: 28px;
+    align-items: center;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-vegetables {
+    width: 1280px;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 42px) / 3);
+  }
 }
