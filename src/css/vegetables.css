@@ -16,7 +16,7 @@
 
 .vegetables-title {
   color: #fbfbfb;
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: 0.02em;
@@ -26,9 +26,7 @@
 
 .vegetables-title-sp {
   color: rgba(251, 251, 251, 0.3);
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 48px;
-  font-style: normal;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: 0.02em;
@@ -37,12 +35,10 @@
 
 .vegetables-text {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
   display: block;
-  max-width: 335px;
   text-align: left;
 }
 
@@ -94,6 +90,20 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 375px) {
+  .vegetables-title {
+    font-size: 48px;
+  }
+
+  .vegetables-title-sp {
+    font-size: 48px;
+  }
+
+  .vegetables-text {
+    max-width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
