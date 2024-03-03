@@ -9,7 +9,7 @@
 .reviews-logo {
   margin-bottom: 20px;
   font-family: Inter Tight;
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: -0.015em;
@@ -81,6 +81,16 @@
   text-align: center;
   padding-bottom: 10px;
 }
+
+
+@media screen and (min-width: 375px) {
+
+  .reviews-logo {
+  font-size: 48px;
+  }
+  
+}
+
 
 /* !---------------- MEDIA TABLET --------------------- */
 
