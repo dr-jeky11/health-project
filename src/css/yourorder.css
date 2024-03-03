@@ -3,6 +3,8 @@
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #7a3145;
+    max-width: 375px;
+    margin: 0 auto;
   }
 
   .order-title {
@@ -12,7 +14,7 @@
     font-size: 48px;
     font-weight: 600;
     line-height: 1.04;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.015em;
     text-transform: uppercase;
   }
 
@@ -22,7 +24,7 @@
 
   .order-text-description {
     color: #fbfbfb;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.28;
@@ -53,11 +55,15 @@
     color: #576f35;
   }
 
+  .inp-wrp {
+    margin-bottom: 15px;
+  }
+
   .modal-input {
     width: 100%;
     background-color: transparent;
     outline: transparent;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
     padding: 14px 16px;
     border-radius: 30px;
     border: 1px solid rgba(20, 20, 20, 0.2);
@@ -77,9 +83,8 @@
   }
 
   /* ===> iconse emeil green <=== */
-
   .modal-input:focus {
-    border-color: #e74a3b;
+    border-color: #7A3145;
   }
 
   .inp:not(:placeholder-shown):invalid {
@@ -94,7 +99,6 @@
   .text-invalid {
     font-size: 14px;
     padding-left: 16px;
-    margin-top: -11px;
     display: none;
   }
 
@@ -106,19 +110,19 @@
     color: #e74a3b;
   }
 
-  .inp:not(:placeholder-shown):valid ~ .text-valid {
+  .inp:not(:placeholder-shown):valid~.text-valid {
     display: block;
   }
 
-  .inp:not(:placeholder-shown):invalid ~ .text-invalid {
+  .inp:not(:placeholder-shown):invalid~.text-invalid {
     display: block;
   }
 
   /* ===> input comment <=== */
-
   .modal-textarea {
     width: 100%;
     height: 91px;
+    resize: none;
     background-color: transparent;
     outline: transparent;
     padding: 14px 16px;
@@ -137,14 +141,13 @@
   }
 
   .modal-textarea:focus {
-    border-color: var(--red-background);
+    border-color: #7A3145;
   }
 
   .modal-btn {
     display: block;
     padding: 16px;
     margin: 0 auto;
-    width: 100%;
     border-radius: 30px;
     background-color: #576f35;
     border: none;
@@ -157,6 +160,8 @@
     line-height: 1.28;
     letter-spacing: -0.015em;
     text-transform: uppercase;
+    width: 295px;
+    height: 50px;
   }
 
   .order-social-networks {
@@ -172,24 +177,11 @@
     /* width: 295px; */
   }
 
-  .order-overlay {
-    display: flex;
-    position: absolute;
-    top: 0;
-    background-image: linear-gradient(
-      0deg,
-      rgba(20, 20, 20, 0.3) 0%,
-      rgba(20, 20, 20, 0.3) 100%
-    );
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-
-  .your-order-img {
+  .order-img {
     width: 295px;
     height: 273px;
     border-radius: 15px;
+    margin-bottom: 20px;
   }
 
   .order-text-follow {
@@ -206,6 +198,11 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 8px 25px;
+  }
+
+  .order-item {
+    position: relative;
   }
 
   .order-link {
@@ -214,23 +211,29 @@
     line-height: 1.08;
     letter-spacing: -0.015em;
   }
-  .order-slash {
+
+  .order-item:not(:last-child)::after {
+    position: absolute;
+    content: '/';
+    top: 0;
+    right: -17px;
+    ;
+    color: #FBFBFB;
+    font-family: "Inter Tight";
     font-size: 24px;
     font-weight: 600;
     line-height: 1.08;
     letter-spacing: -0.015em;
-    margin-left: 8px;
-    margin-right: 8px;
   }
 }
 
 /* ===> Tablet version <=== */
 /* Adaptive */
-
 @media screen and (min-width: 768px) {
   .your-order {
     padding-top: 100px;
     padding-bottom: 100px;
+    max-width: 768px;
   }
 
   .order-title-text {
@@ -242,13 +245,13 @@
     margin-bottom: 25px;
     font-size: 64px;
     line-height: 1;
-    letter-spacing: -0.06em;
   }
 
   .order-text-description {
     font-size: 16px;
     line-height: 1.25;
-    margin-bottom: 0;
+    margin-bottom: 50px;
+    width: 640px;
   }
 
   .order-container-modal-social {
@@ -276,33 +279,24 @@
     padding: 16px 191px;
     font-size: 18px;
     line-height: 1.11;
+    width: 428px;
+    height: 52px;
   }
 
   .order-social-networks {
     padding: 50px;
   }
+
   .order-container-img {
     margin-bottom: 50px;
     width: 528px;
     height: 273px;
   }
 
-  .order-overlay {
-    display: flex;
-    position: absolute;
-    top: 0;
-    background-image: linear-gradient(
-      0deg,
-      rgba(20, 20, 20, 0.3) 0%,
-      rgba(20, 20, 20, 0.3) 100%
-    );
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-
-  .your-order-img {
+  .order-img {
     width: 528px;
+    height: 273px;
+    margin-bottom: 50px;
   }
 
   .order-text-follow {
@@ -311,29 +305,28 @@
     line-height: 1.11;
   }
 
+  .order-list {
+    gap: 35px;
+  }
+
   .order-link {
     font-size: 32px;
     line-height: 1;
   }
 
-  .order-slash {
+  .order-item:not(:last-child)::after {
     font-size: 32px;
     line-height: 1;
-    margin-left: 8px;
-    margin-right: 8px;
+    right: -23px;
   }
 }
 
 /* === desktop version <=== */
-
 @media screen and (min-width: 1280px) {
   .your-order {
-    padding: 100px;
-    display: inline-flex;
-  }
-
-  .desktop {
-    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1280px;
   }
 
   .order-title-text {
@@ -348,6 +341,10 @@
     width: 742px;
   }
 
+  .order-list {
+    gap: 12px 35px;
+  }
+
   .order-container-modal-social {
     display: flex;
     align-items: flex-start;
@@ -356,7 +353,6 @@
   }
 
   /*===> form <==== */
-
   .modal {
     width: 529px;
     height: 534px;
@@ -370,15 +366,15 @@
   }
 
   /* ===> div in img <=== */
-
   .order-social-networks {
     width: 527px;
     height: 534px;
     padding-bottom: 50px;
   }
 
-  .order-container-img {
+  .order-img {
     width: 427px;
+    height: 273px;
   }
 
   .order-list {

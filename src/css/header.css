@@ -20,15 +20,13 @@
   display: flex;
   gap: 4px;
   margin-right: auto;
-  /* align-items: center; */
+  align-items: normal;
 }
 
 .icon-logo {
   width: 16px;
   height: 16px;
   fill: #fbfbfb;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .icon-logo-text {
@@ -36,7 +34,6 @@
   height: 12px;
   fill: #fbfbfb;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .logo-icon {
@@ -125,7 +122,7 @@
   stroke: #fbfbfb;
 }
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -136,7 +133,7 @@
   visibility: hidden;
   pointer-events: none;
   z-index: 1999;
-}
+} */
 
 .mob-menu {
   display: flex;
@@ -156,7 +153,7 @@
   z-index: 2000;
 }
 
-.is-open {
+.mob-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -292,6 +289,7 @@
 
   .logo {
     gap: 8px;
+    align-items: center;
   }
 
   .icon-logo {

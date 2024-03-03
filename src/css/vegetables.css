@@ -1,5 +1,7 @@
 .vegetables {
   background-color: #7a3145;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .container-vegetables {
@@ -23,6 +25,7 @@
   line-height: 1.04;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  width: 100%;
 }
 
 .vegetables-title-sp {
@@ -43,7 +46,7 @@
   font-weight: 500;
   line-height: 1.29;
   display: block;
-  width: 335px;
+  max-width: 335px;
   text-align: left;
 }
 
@@ -98,6 +101,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .vegetables {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
   .container-vegetables {
     width: 768px;
     padding: 100px 32px;
@@ -138,6 +146,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .vegetables {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
   .container-vegetables {
     width: 1280px;
     padding: 100px;
