@@ -9,7 +9,7 @@
 .advert-container {
   margin: 0 auto;
   padding: 0 20px;
-  width: 375px;
+  width: 280px;
 }
 
 .advert-text {
@@ -33,13 +33,33 @@
   position: absolute;
   content: '';
   background-color: #576f35;
-  width: 355px;
-  height: 102px;
+  width: 260px;
+  height: 153px;
   border-radius: 12px;
   z-index: -1;
   top: -3px;
   left: -10px;
 }
+
+
+
+
+@media screen and (min-width: 375px) {
+
+  .advert-container {
+    width: 375px;
+  }
+
+  .advert-accent::before {
+    width: 355px;
+    height: 102px;
+    top: -3px;
+    left: -10px;
+  }
+
+}
+
+
 
 @media screen and (min-width: 768px) {
   .advert-container {
