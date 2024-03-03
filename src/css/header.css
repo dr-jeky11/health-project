@@ -185,7 +185,7 @@
   gap: 8px;
 }
 
-.mob-menu-item1 {
+.mob-menu-item-work {
   /* display: flex; */
   padding: 12px 16px;
   justify-content: center;
@@ -197,7 +197,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-menu-item2 {
+.mob-menu-item-veg {
   /* display: flex; */
   padding: 12px 24px;
   justify-content: center;
@@ -207,7 +207,7 @@
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mob-menu-item3 {
+.mob-menu-item-rev {
   /* display: flex; */
   padding: 12px 32px;
   justify-content: center;
@@ -218,14 +218,14 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-menu-item2:hover,
-.mob-menu-item2:focus,
-.mob-menu-item3:hover,
-.mob-menu-item3:focus {
+.mob-menu-item-veg:hover,
+.mob-menu-item-veg:focus,
+.mob-menu-item-rev:hover,
+.mob-menu-item-rev:focus {
   background-color: #fbfbfb;
 }
 
-.mob-menu-link1 {
+.mob-menu-link-work {
   color: #7a3145;
   text-align: center;
   font-size: 14px;
@@ -235,13 +235,13 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-menu-link1:hover,
-.mob-menu-link1:focus {
+.mob-menu-link-work:hover,
+.mob-menu-link-work:focus {
   color: rgba(122, 49, 69, 0.7);
 }
 
-.mob-menu-link2,
-.mob-menu-link3 {
+.mob-menu-link-veg,
+.mob-menu-link-rev {
   color: #fbfbfb;
   text-align: center;
   font-size: 14px;
@@ -251,10 +251,10 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-menu-link2:hover,
-.mob-menu-link2:focus,
-.mob-menu-link3:hover,
-.mob-menu-link3:focus {
+.mob-menu-link-veg:hover,
+.mob-menu-link-veg:focus,
+.mob-menu-link-rev:hover,
+.mob-menu-link-rev:focus {
   color: #7a3145;
 }
 
@@ -335,21 +335,21 @@
     right: 32px;
   }
 
-  .mob-menu-item1 {
+  .mob-menu-item-work {
     padding: 12px;
   }
 
-  .mob-menu-item2 {
+  .mob-menu-item-veg {
     padding: 12px 21px;
   }
 
-  .mob-menu-item3 {
+  .mob-menu-item-rev {
     padding: 12px 28px;
   }
 
-  .mob-menu-link1,
-  .mob-menu-link2,
-  .mob-menu-link3 {
+  .mob-menu-link-work,
+  .mob-menu-link-veg,
+  .mob-menu-link-rev {
     font-size: 16px;
     line-height: 1.25;
   }
