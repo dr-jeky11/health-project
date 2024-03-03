@@ -67,7 +67,7 @@ margin-bottom: 40px;
 .vegetables-facts {
   position: relative;
     overflow: hidden;
-    width: 282px;
+    width: 334px;
 
 }
 
@@ -79,10 +79,11 @@ margin-bottom: 40px;
   letter-spacing: 0.02em;
   color: #291d20;
   background-color: #7a3145;
-  padding: 32px 26px;
-  border-radius: 40px;
+  padding: 62px 32px;
+  text-align: center;
+  border-radius: 20px;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   transform: translateY(100%);
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
