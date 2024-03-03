@@ -122,7 +122,7 @@
   stroke: #fbfbfb;
 }
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -133,7 +133,7 @@
   visibility: hidden;
   pointer-events: none;
   z-index: 1999;
-}
+} */
 
 .mob-menu {
   display: flex;
@@ -153,7 +153,7 @@
   z-index: 2000;
 }
 
-.is-open {
+.mob-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;

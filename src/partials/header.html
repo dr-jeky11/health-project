@@ -25,35 +25,39 @@
         </li>
       </ul>
     </nav>
-    <button class="header-btn" type="button">Shop now</button>
-    <button type="button" class="open-menu-btn">
+    <a class="header-btn" type="button" href="#your-order"> Shop now </a>
+    <button type="button" class="open-menu-btn js-open-menu">
       <svg class="icon-menu-open" width="32" height="32">
         <use href="/images/icons.svg#icon-menu"></use>
       </svg>
     </button>
   </div>
   <!-- mob menu -->
-  <div class="backdrop">
-    <div class="mob-menu">
-      <button type="button" class="mob-menu-close">
-        <svg class="mob-icon-close" width="32" height="32">
-          <use href="/images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
-      <nav class="mob-menu-nav">
-        <ul class="mob-menu-list">
-          <li class="mob-menu-item1">
-            <a class="mob-menu-link1" href="#howitworks">How It Works</a>
-          </li>
-          <li class="mob-menu-item2">
-            <a class="mob-menu-link2" href="#vegetables">Vegetables</a>
-          </li>
-          <li class="mob-menu-item3">
-            <a class="mob-menu-link3" href="#reviews">Reviews</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="mob-btn" type="button">Shop now</button>
-    </div>
+  <div class="mob-menu js-menu-container">
+    <button type="button" class="mob-menu-close js-close-menu">
+      <svg class="mob-icon-close" width="32" height="32">
+        <use href="/images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="mob-menu-nav">
+      <ul class="mob-menu-list">
+        <li class="mob-menu-item1">
+          <a class="mob-menu-link1 mob-nav-link" href="#howitworks"
+            >How It Works</a
+          >
+        </li>
+        <li class="mob-menu-item2">
+          <a class="mob-menu-link2 mob-nav-link" href="#vegetables"
+            >Vegetables</a
+          >
+        </li>
+        <li class="mob-menu-item3">
+          <a class="mob-menu-link3 mob-nav-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="mob-btn mob-nav-link" type="button" href="#your-order"
+      >Shop now</a
+    >
   </div>
 </header>
