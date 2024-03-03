@@ -87,6 +87,7 @@
   }
   .hero-container {
     padding: 0;
+    display: contents;
   }
   .hero-content {
     padding: 238px 28px 50px 100px;
@@ -99,7 +100,7 @@
     width: 472px;
   }
   .hero-image {
-    width: 100%;
+    min-width: 650px;
     height: auto;
     background-image: image-set(
       url(/images/hero/hero-img.jpg) 1x,
