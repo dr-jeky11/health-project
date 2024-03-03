@@ -6,26 +6,26 @@ ol {
     list-style: none;
 }
 
-.howitworks-section {}
+.howitworks-section {
+    background: linear-gradient(to bottom,
+            #7a3145 0% 44.76%,
+            #576f35 44.76% 100%);
+}
 
-.hiw-container-img {
-    background-color: #7A3145;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.howitworks-container {
+    padding: 0;
 }
 
 .howitworks-img-box {
     max-width: 375px;
-}
-
-.hiw-container-text {
-    background-color: #576F35;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    background-color: #7A3145;
+    padding: 40px 20px;
 }
 
 .howitworks-content-box {
     max-width: 375px;
+    background-color: #576F35;
+    padding: 80px 20px;
 }
 
 .howitworks-title {
@@ -87,7 +87,6 @@ ol {
     width: 52px;
     height: 52px;
     background-color: #7A3145;
-    /* box-shadow: 0 0 0 5px #7A31454D; */
     border: 5px solid #d3bec4;
     border-radius: 50%;
     left: 29px;
@@ -110,20 +109,23 @@ ol {
 
 @media screen and (min-width: 768px) {
 
-    .hiw-container-img {
-        padding: 100px 64px;
+    .howitworks-section {
+        background: linear-gradient(to bottom,
+                #7a3145 0% 54.58%,
+                #576f35 54.58% 100%);
     }
+
+    .howitworks-container {}
+
 
     .howitworks-img-box {
         max-width: 768px;
-    }
-
-    .hiw-container-text {
-        padding: 100px 159px;
+        padding: 100px 64px;
     }
 
     .howitworks-content-box {
         max-width: 768px;
+        padding: 100px 159px;
     }
 
     .howitworks-title {
@@ -150,32 +152,30 @@ ol {
 
 @media screen and (min-width: 1280px) {
 
+    .howitworks-container {
+        display: flex;
+    }
+
     .howitworks-section {
-        max-width: 1280px;
+        background: linear-gradient(to right,
+                #7a3145 0% 44.76%,
+                #576f35 44.76% 100%);
+    }
+
+
+    .howitworks-section {
         display: flex;
         margin: 0 auto;
     }
 
-    .hiw-container-img {
+    .howitworks-img-box {
         max-width: 630px;
         padding: 100px;
     }
 
-    .howitworks-img-box {
-        max-width: 630px;
-
-    }
-
-    .hiw-container-text {
+    .howitworks-content-box {
         max-width: 650px;
         padding: 100px 100px 160px;
     }
-
-    .howitworks-content-box {
-        /* max-width: 650px; */
-
-    }
-
-
 
 }
