@@ -25,6 +25,7 @@
   line-height: 1.04;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  width: 100%;
 }
 
 .vegetables-title-sp {
@@ -45,7 +46,7 @@
   font-weight: 500;
   line-height: 1.29;
   display: block;
-  width: 335px;
+  max-width: 335px;
   text-align: left;
 }
 
