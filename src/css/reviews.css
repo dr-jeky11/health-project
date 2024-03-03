@@ -1,8 +1,5 @@
 .reviews {
   background-color: #fbfbfb;
-}
-
-.section-reviews {
   padding: 80px 0;
 }
 
@@ -95,7 +92,7 @@
 /* !---------------- MEDIA TABLET --------------------- */
 
 @media screen and (min-width: 768px) {
-  .section-reviews {
+  .reviews {
     padding: 100px 0;
   }
 
@@ -140,9 +137,6 @@
 /* !---------------- MEDIA DESKTOP --------------------- */
 
 @media screen and (min-width: 1280px) {
-  .section-reviews {
-    padding: 100px;
-  }
 
   .reviews-list-content {
     width: calc((100% - 38px) / 3);
