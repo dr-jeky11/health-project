@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  z-index: 1000;
 }
 
 .header-container {
@@ -65,6 +66,7 @@
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.4);
   cursor: pointer;
+  transition: border 0.2s ease;
 }
 
 .header-menu-item:hover,
@@ -98,7 +100,7 @@
   line-height: 1.11;
   letter-spacing: -0.015em;
   text-transform: uppercase;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-btn:hover,
@@ -396,5 +398,16 @@
   .header-btn:hover,
   .header-btn:focus {
     background: #622133;
+  }
+
+
+  .element-animation0 {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  .element-animation0.element-show {
+    opacity: 1;
+    transition: all 2s ease 0s;
+    transform: translateY(0%);
   }
 }
