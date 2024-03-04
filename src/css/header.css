@@ -349,15 +349,15 @@
     right: 32px;
   }
 
-  .mob-menu-item-work {
+  .mob-menu-link-work {
     padding: 12px;
   }
 
-  .mob-menu-item-veg {
+  .mob-menu-link-veg {
     padding: 12px 21px;
   }
 
-  .mob-menu-item-rev {
+  .mob-menu-link-rev {
     padding: 12px 28px;
   }
 
@@ -399,7 +399,6 @@
   .header-btn:focus {
     background: #622133;
   }
-
 
   .element-animation0 {
     opacity: 0;
