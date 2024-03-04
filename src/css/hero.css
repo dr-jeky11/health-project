@@ -108,4 +108,46 @@
       url(/images/hero/hero-img@2x.jpg) 2x
     );
   }
+
+  .element-animation1 {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  .element-animation1.element-show {
+    opacity: 1;
+    transition: all 1s ease 0s;
+    transform: translateX(0%);
+  }
+  
+  .element-animation2 {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  .element-animation2.element-show {
+    opacity: 1;
+    transition: all 1s ease 0s;
+    transform: translateX(0%);
+  }
+  .element-animation3 {
+    opacity: 0;
+    transform: translateY(150px);
+}
+.element-animation3.element-show {
+    opacity: 1;
+    transition: all 1.5s ease 0s;
+    transform: translateY(0%);
+}
+
+.element-animation4 {
+  opacity: 0;
+  animation: show;
+}
+.element-animation4.element-show {
+  opacity: 1;
+  transition: all 1.5s ease-in 0s;
+}
+@keyframes show {
+  0% { opacity: 0;}
+  100% {opacity: 1;}
+}
 }

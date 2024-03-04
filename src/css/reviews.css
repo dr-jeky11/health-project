@@ -54,12 +54,14 @@
   border-radius: 24px;
   width: ((100% - 18px) / 2);
   background: rgb(251, 251, 251);
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .reviews-list-content:hover,
 .reviews-list-content:focus {
-  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(1.1);
+  transform: scale(.95);
+  box-shadow: 2px 2px 10px rgb(164, 164, 164);
 }
 
 .reviews-photo {
