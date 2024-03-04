@@ -59,7 +59,6 @@
 
 .header-menu-item {
   display: flex;
-  padding: 12px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -81,6 +80,7 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   background-color: transparent;
+  padding: 12px;
 }
 
 .header-btn {
@@ -182,7 +182,6 @@
 
 .mob-menu-item-work {
   /* display: flex; */
-  padding: 12px 16px;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
@@ -194,7 +193,6 @@
 
 .mob-menu-item-veg {
   /* display: flex; */
-  padding: 12px 24px;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
@@ -204,7 +202,6 @@
 }
 .mob-menu-item-rev {
   /* display: flex; */
-  padding: 12px 32px;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
@@ -221,7 +218,9 @@
 }
 
 .mob-menu-link-work {
+  display: block;
   color: #7a3145;
+  padding: 12px 16px;
   text-align: center;
   font-size: 14px;
   font-weight: 500;
@@ -250,6 +249,8 @@
 
 .mob-menu-link-veg,
 .mob-menu-link-rev {
+  display: block;
+  padding: 12px 24px;
   color: #fbfbfb;
   text-align: center;
   font-size: 14px;
@@ -257,6 +258,10 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-link-rev {
+  padding: 12px 32px;
 }
 
 .mob-menu-item-veg:hover .mob-menu-link-veg,
