@@ -1,181 +1,180 @@
 /*! How it works */
 
 ol {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .howitworks-section {
-    background: linear-gradient(to bottom,
-            #7a3145 0% 44.76%,
-            #576f35 44.76% 100%);
+  background: linear-gradient(
+    to bottom,
+    #7a3145 0% 44.76%,
+    #576f35 44.76% 100%
+  );
 }
 
 .howitworks-container {
-    padding: 0;
+  padding: 0;
 }
 
 .howitworks-img-box {
-    max-width: 375px;
-    background-color: #7A3145;
-    padding: 40px 20px;
+  max-width: 375px;
+  background-color: #7a3145;
+  padding: 40px 20px;
 }
 
 .howitworks-content-box {
-    max-width: 375px;
-    background-color: #576F35;
-    padding: 80px 20px;
+  max-width: 375px;
+  background-color: #576f35;
+  padding: 80px 20px;
 }
 
 .howitworks-title {
-    max-width: 335px;
-    color: #FBFBFB;
-    font-family: "Inter Tight", sans-serif;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.015em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  max-width: 335px;
+  color: #fbfbfb;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .howitworks-title-var {
-    color: rgba(251, 251, 251, 0.30);
+  color: rgba(251, 251, 251, 0.3);
 }
 
 .howitworks-text {
-    max-width: 335px;
-    color: #FBFBFB;
-    font-family: "Inter Tight", sans-serif;
-    font-size: 14px;
-    line-height: 1.28;
-    margin-bottom: 40px;
+  max-width: 335px;
+  color: #fbfbfb;
+  font-size: 14px;
+  line-height: 1.28;
+  margin-bottom: 40px;
 }
 
 .howitworks-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    counter-reset: section;
-    list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  counter-reset: section;
+  list-style-type: none;
 }
 
 .howitworks-items {
-    color: rgba(20, 20, 20, 0.60);
-    font-family: "Inter Tight", sans-serif;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: -0.02em;
-    max-width: 100%;
-    height: 76px;
-    background-color: #FBFBFB;
-    padding: 12px 24px 12px 100px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    position: relative;
+  color: rgba(20, 20, 20, 0.6);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  max-width: 100%;
+  height: 76px;
+  background-color: #fbfbfb;
+  padding: 12px 24px 12px 100px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .howitworks-items-bold {
-    color: #141414;
-    font-weight: 700;
+  color: #141414;
+  font-weight: 700;
 }
 
 .howitworks-items::before {
-    content: '';
-    width: 52px;
-    height: 52px;
-    background-color: #7A3145;
-    border: 5px solid #d3bec4;
-    border-radius: 50%;
-    left: 29px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    counter-increment: section;
-    content: counters(section, ".") " ";
-    position: absolute;
-    color: #FBFBFB;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: -0.02em;
+  content: '';
+  width: 52px;
+  height: 52px;
+  background-color: #7a3145;
+  border: 5px solid #d3bec4;
+  border-radius: 50%;
+  left: 29px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  counter-increment: section;
+  content: counters(section, '.') ' ';
+  position: absolute;
+  color: #fbfbfb;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 
 /* ! How it works Tab */
 
 @media screen and (min-width: 768px) {
+  .howitworks-section {
+    background: linear-gradient(
+      to bottom,
+      #7a3145 0% 54.58%,
+      #576f35 54.58% 100%
+    );
+  }
 
-    .howitworks-section {
-        background: linear-gradient(to bottom,
-                #7a3145 0% 54.58%,
-                #576f35 54.58% 100%);
-    }
+  .howitworks-container {
+  }
 
-    .howitworks-container {}
+  .howitworks-img-box {
+    max-width: 768px;
+    padding: 100px 64px;
+  }
 
+  .howitworks-content-box {
+    max-width: 768px;
+    padding: 100px 159px;
+  }
 
-    .howitworks-img-box {
-        max-width: 768px;
-        padding: 100px 64px;
-    }
+  .howitworks-title {
+    max-width: 450px;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
 
-    .howitworks-content-box {
-        max-width: 768px;
-        padding: 100px 159px;
-    }
+  .howitworks-text {
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
 
-    .howitworks-title {
-        max-width: 450px;
-        font-size: 32px;
-        margin-bottom: 25px;
-    }
-
-    .howitworks-text {
-        max-width: 450px;
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 50px;
-    }
-
-    .howitworks-items {
-        font-size: 16px;
-        line-height: 1.25;
-        max-width: 450px;
-    }
+  .howitworks-items {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 450px;
+  }
 }
 
 /* ! How it works Desktop */
 
 @media screen and (min-width: 1280px) {
+  .howitworks-container {
+    display: flex;
+  }
 
-    .howitworks-container {
-        display: flex;
-    }
+  .howitworks-section {
+    background: linear-gradient(
+      to right,
+      #7a3145 0% 44.76%,
+      #576f35 44.76% 100%
+    );
+  }
 
-    .howitworks-section {
-        background: linear-gradient(to right,
-                #7a3145 0% 44.76%,
-                #576f35 44.76% 100%);
-    }
+  .howitworks-section {
+    display: flex;
+    margin: 0 auto;
+  }
 
+  .howitworks-img-box {
+    max-width: 630px;
+    padding: 100px;
+  }
 
-    .howitworks-section {
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .howitworks-img-box {
-        max-width: 630px;
-        padding: 100px;
-    }
-
-    .howitworks-content-box {
-        max-width: 650px;
-        padding: 100px 100px 160px;
-    }
-
+  .howitworks-content-box {
+    max-width: 650px;
+    padding: 100px 100px 160px;
+  }
 }

@@ -5,7 +5,6 @@
 
 .reviews-logo {
   margin-bottom: 20px;
-  font-family: Inter Tight;
   font-size: 30px;
   font-weight: 600;
   line-height: 1.04;
@@ -21,7 +20,6 @@
 
 .reviews-text {
   color: rgb(20, 20, 20);
-  font-family: Inter Tight;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
@@ -69,7 +67,6 @@
 }
 .reviews-name {
   color: rgb(4, 3, 6);
-  font-family: Inter Tight;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -79,7 +76,6 @@
 }
 .reviews-customer-review {
   color: rgba(4, 3, 6, 0.4);
-  font-family: Inter Tight;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.4;

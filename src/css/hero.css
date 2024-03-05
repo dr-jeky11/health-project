@@ -16,7 +16,6 @@
 }
 
 .hero-title {
-  font-family: 'Inter Tight';
   font-weight: 600;
   font-size: 30px;
   line-height: 1;
@@ -27,7 +26,6 @@
 }
 
 .hero-text {
-  font-family: 'Inter Tight';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;

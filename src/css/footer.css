@@ -27,9 +27,7 @@
 
 .footer-logo-text {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.29;
 }
@@ -47,9 +45,7 @@
 
 .footer-item {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 28px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -68,9 +64,7 @@
 
 .footer-tel-link {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -85,9 +79,7 @@
 
 .footer-address {
   color: #fbfbfb;
-  font-family: 'Inter Tight';
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -101,9 +93,7 @@
 
 .footer-link-policy {
   color: rgba(251, 251, 251, 0.5);
-  font-family: 'Inter Tight';
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -111,9 +101,7 @@
 
 .footer-slash {
   color: rgba(251, 251, 251, 0.5);
-  font-family: 'Inter Tight';
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -122,9 +110,7 @@
 }
 .footer-link-cookie {
   color: rgba(251, 251, 251, 0.5);
-  font-family: 'Inter Tight';
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -133,9 +119,7 @@
 
 .footer-text-copy {
   color: rgba(251, 251, 251, 0.5);
-  font-family: 'Inter Tight';
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: -0.02em;
@@ -179,9 +163,7 @@
   }
 
   .footer-logo-text {
-    font-family: 'Inter Tight';
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.25;
   }
